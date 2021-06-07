@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>
+    <textarea type="text" id="inputText"></textarea>
+</label>
+<input type="submit" id="submitInput" onclick="parse()"><br><br>
+<label>
+    <textarea type="text" id="outputText"></textarea>
+</label>
+</body>
+<script>
+	function parse()
+	{
+		document.getElementById("outputText").value = objectToOutput(JSON.parse(document.getElementById("inputText").value));
+	}
+
+	function objectToOutput(object)
+	{
+		const Notes = [];
+		let output = "BPM=" + Math.round(object.song.bpm) + ";SongName=\"" + object.song.song + "\";scrollSpeed=" + (Math.floor(object.song.speed * 10) / 10).toString() + "f;";
+		for (const noteSection of object.song.notes)
+			for (const note of noteSection.sectionNotes)
+			{
+				const index = noteSection.mustHitSection ? note[1] : (note[1] + 4) % 8;
+				if (index < 0 || index > 7) continue;
+				Notes.push(
+					{
+						index: index,
+						time: Math.floor(note[0]),
+						duration: Math.floor(note[2])
+					}
+				);
+			}
+		Notes.sort(function(a, b) {return a.time - b.time;});
+		for (const note of Notes)
+			output += "AddNote(" + note.index + "," + note.time + "," + note.duration + ");";
+		return output;
+	}
+</script>
+</html>
