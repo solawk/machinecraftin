@@ -45,7 +45,7 @@ Actions triggered by the game are called **LeftL**, **LeftD**, **LeftU**, **Left
 ## (0, 0) : error : Array index out of range.
 Simply re-enter the practice mode. I don't know where this crash has come from and it's getting even worse the more code the script has. It usually works on the 3rd try for me.
 ## There's a huge lag when the song loads and it messes up the arrows!
-The game will always lag when the song is loaded in for the first time since game launch. While the arrows that get caught up in the lag are affected, the script then syncs properly, so it's nothing critical, unless the player has arrows to press right from the song's start. I don't remember a single song that has any.
+The game will always lag when the song is loaded in for the first time since the game launch. While the arrows that get caught up in the lag are affected, the script then syncs properly, so it's nothing critical, unless the player has arrows to press right from the song's start. I don't remember a single song that has any.
 ## "Not enough 'something'!!"
 Increase the appropriate 'something'Max integer. Don't increase too much, since it negatively affects the booting up performance.
 ## The machine is too shaky
