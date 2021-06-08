@@ -25,15 +25,24 @@ Launch the FNF machine in the practice mode.
 Default layout is **A**, **S**, **Up Arrow**, **Right Arrow**.
 You can change the layout via script, these are the KeyCodes in the **Keys** array on line 72.
 All in all, it's just normal gameplay of the vanilla Friday Night Funkin' (meaning there are no, for example, fire notes in the "vs Tricky" songs).
+Don't ever open the Tab/Esc menu when the music is playing, since the game stops and restarts it afterwards.
 
 # FNF machine
 You can use the script on any machine, the default one is just a testbed.
-Actions triggered by the game are called **LeftL**, **LeftD**, **LeftU**, **LeftR**, **RightL**, **RightD**, **RightU**, **RightR**.
+Actions triggered by the game are called **LeftL**, **LeftD**, **LeftU**, **LeftR**, **RightL**, **RightD**, **RightU**, **RightR**, **BeatL** and **BeatR**.
 
 # Troubleshooting
-##(0, 0) : error : Array index out of range.
-Simply re-enter the practice mode. I don't know where this crash has come from and it's getting even worse the more code the script has. It usually works on the 3rd try.
-##There's a huge lag when the song loads and it messes up the arrows!
+## (0, 0) : error : Array index out of range.
+Simply re-enter the practice mode. I don't know where this crash has come from and it's getting even worse the more code the script has. It usually works on the 3rd try for me.
+## There's a huge lag when the song loads and it messes up the arrows!
 The game will always lag when the song is loaded in for the first time since game launch. While the arrows that get caught up in the lag are affected, the script then syncs properly, so it's nothing critical, unless the player has arrows to press right from the song's start. I don't remember a single song that has any.
-##"Not enough <something>!!"
-Increase the appropriate <something>Max integer. Don't increase too much, since it negatively affects the booting up performance.
+## "Not enough 'something'!!"
+Increase the appropriate 'something'Max integer. Don't increase too much, since it negatively affects the booting up performance.
+## The machine is too shaky
+It is. You can remove the Basic1 and its rotors if it's critical.
+## The song restarts after it's over
+Yes. Play the track and leave the game session, it's not restartable yet.
+## The track restarts if I miss too much arrows
+If you're playing on a low screen resolution, this is the problem. Switch to a higher one.
+## I get a white error and the script crashes
+Please screenshot it and send to me via Discord (Solawk#9890).
