@@ -889,7 +889,7 @@ public class FNF : UserScript
 	{
 		if (ccInUse == ccMax)
 		{
-			ap.Log("Not enough combo digits!!");
+			ap.Log("Not enough cc!!");
 			return;
 		}
 		
