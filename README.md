@@ -10,7 +10,7 @@ MachineCraft by G2CREW
 # How to install
 1. Find the **UserData** folder in your copy of Machinecraft.
 2. Download the repository as a ZIP archive.
-3. Extract the **UserData** folder and merge it with your own.
+3. Extract the **UserData** folder from the archive and merge it with your own.
 4. Access *_UserData/_scripts/FNF.cs* and change the name to your in-game name on line 165.
 You can now launch the machine but there's no songs for it to play.
 
