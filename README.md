@@ -1,6 +1,8 @@
 # Friday Night MachineCraftin'
-Friday Night Funkin' recreated as a MachineCraft script
+Friday Night Funkin' recreated as a MachineCraft script.
+
 Original game by ninja_muffin99
+
 MachineCraft by G2CREW
 
 **Parser** as an online page: https://solawk.github.io/machinecraftin/
