@@ -23,6 +23,8 @@ You can now launch the machine but there's no songs for it to play.
 5. Find the "Inst" and "Voices" audio files of the song in your copy of Friday Night Funkin'. In the vanilla game these are in *assets/music*.
 6. Convert those into .wav and put into the *UserData/_sounds/FNF* folder, name them "<song_name>\_Inst" and "<song_name>\_Voices". Song name must match the one in the beginning of the chart.
 
+There are several songs that I've parsed already, you can find them on the parser page. However, the converted audio is very large in size, so I don't distribute it.
+
 # How to play
 Launch the FNF machine in the practice mode.
 
