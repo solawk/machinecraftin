@@ -22,13 +22,18 @@ You can now launch the machine but there's no songs for it to play.
 
 # How to play
 Launch the FNF machine in the practice mode.
+
 Default layout is **A**, **S**, **Up Arrow**, **Right Arrow**.
+
 You can change the layout via script, these are the KeyCodes in the **Keys** array on line 72.
+
 All in all, it's just normal gameplay of the vanilla Friday Night Funkin' (meaning there are no, for example, fire notes in the "vs Tricky" songs).
+
 Don't ever open the Tab/Esc menu when the music is playing, since the game stops and restarts it afterwards.
 
 # FNF machine
 You can use the script on any machine, the default one is just a testbed.
+
 Actions triggered by the game are called **LeftL**, **LeftD**, **LeftU**, **LeftR**, **RightL**, **RightD**, **RightU**, **RightR**, **BeatL** and **BeatR**.
 
 # Troubleshooting
