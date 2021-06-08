@@ -46,3 +46,5 @@ Yes. Play the track and leave the game session, it's not restartable yet.
 If you're playing on a low screen resolution, this is the problem. Switch to a higher one.
 ## I get a white error and the script crashes
 Please screenshot it and send to me via Discord (Solawk#9890).
+## I think Heavy is dead
+**Heavy is dead?**
