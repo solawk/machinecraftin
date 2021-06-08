@@ -13,7 +13,7 @@ MachineCraft by G2CREW
 3. Extract the **UserData** folder from the archive and merge it with your own.
 4. Access *_UserData/_scripts/FNF.cs* and change the name to your in-game name on line 165.
 
-You can now launch the machine but there's no songs for it to play.
+You can now launch the machine but there're no songs for it to play.
 
 # How to add songs
 1. Find the .json **chart** file in *assets/data/<song_name>* in your copy of Friday Night Funkin' or its mods.
